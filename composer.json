@@ -1,0 +1,24 @@
+{
+  "name": "kangyasin/response",
+  "description": "Wrap Guzzle Response",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kangyasin",
+      "email": "tutorialblogmarine@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kangyasin\\Response\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "^6.0 || ^7.0 || ^8.0 || ^9.0"
+  }
+}
